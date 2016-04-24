@@ -8,6 +8,7 @@ public class Hex16
 {
 	public	static	int	convert(String s)
 	{
+		int a = 0;
 		int	i0 = hex2int(s.charAt(2));
 		int	i1 = hex2int(s.charAt(3));
 		int	i2 = hex2int(s.charAt(4));
